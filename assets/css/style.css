@@ -1,11 +1,11 @@
 body {
-    background-image: url("C:/Users/Sandesh/CodingBootCamp/CrystalsCollector-Game/assets/images/embossed-diamond.png");
+    background-image: url("../images/embossed-diamond.png");
     background-color: rgba(255, 0, 0, 0.45);
     background-blend-mode: overlay;
 }
 
 .jumbotron {
-    background-image: url("C:/Users/Sandesh/CodingBootCamp/CrystalsCollector-Game/assets/images/Crystal Gem Background.jpg");
+    background-image: url("../images/Crystal\ Gem\ Background.jpg");
     background-position: center;
 }
 
