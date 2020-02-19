@@ -4,11 +4,11 @@ var losses = 0;
 var wins = 0;
 var usernumber = 0;
 
-var compnumber = Math.floor(Math.random() * 40) + 20;
-var bluen = Math.floor(Math.random() * 10) + 1;
-var orangen = Math.floor(Math.random() * 10) + 1;
-var pinkn = Math.floor(Math.random() * 10) + 1;
-var redn = Math.floor(Math.random() * 10) + 1;
+var compnumber = Math.floor(Math.random() * 102) + 19;
+var bluen = Math.floor(Math.random() * 12) + 1;
+var orangen = Math.floor(Math.random() * 12) + 1;
+var pinkn = Math.floor(Math.random() * 12) + 1;
+var redn = Math.floor(Math.random() * 12) + 1;
 
 
 var blueg = $("#bluegem")
@@ -29,21 +29,21 @@ $(document).ready(function () {
             wins++
             $("#winxloss").text("You Won! Click to play again!")
             usernumber = 0;
-            bluen = Math.floor(Math.random() * 10) + 1;
-            orangen = Math.floor(Math.random() * 10) + 1;
-            pinkn = Math.floor(Math.random() * 10) + 1;
-            redn = Math.floor(Math.random() * 10) + 1;
-            compnumber = Math.floor(Math.random() * 40) + 20;
+            bluen = Math.floor(Math.random() * 12) + 1;
+            orangen = Math.floor(Math.random() * 12) + 1;
+            pinkn = Math.floor(Math.random() * 12) + 1;
+            redn = Math.floor(Math.random() * 12) + 1;
+            compnumber = Math.floor(Math.random() * 102) + 19;
         }
         if (usernumber > compnumber) {
             losses++
             $("#winxloss").text("You Loss! Click to play again!")
             usernumber = 0;
-            bluen = Math.floor(Math.random() * 10) + 1;
-            orangen = Math.floor(Math.random() * 10) + 1;
-            pinkn = Math.floor(Math.random() * 10) + 1;
-            redn = Math.floor(Math.random() * 10) + 1;
-            compnumber = Math.floor(Math.random() * 40) + 20;
+            bluen = Math.floor(Math.random() * 12) + 1;
+            orangen = Math.floor(Math.random() * 12) + 1;
+            pinkn = Math.floor(Math.random() * 12) + 1;
+            redn = Math.floor(Math.random() * 12) + 1;
+            compnumber = Math.floor(Math.random() * 102) + 19;
         }
     }
 // This function is so that the computer score persists after the user has either won or loss so they can compare thier numbers.
