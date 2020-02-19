@@ -29,3 +29,8 @@ span {
     font-size: 35px;
     font-weight: bold;
 }
+
+div img:hover {
+    outline: 15px solid green;
+    cursor: pointer;
+}
