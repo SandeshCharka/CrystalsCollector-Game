@@ -1,0 +1,31 @@
+body {
+    background-image: url("C:/Users/Sandesh/CodingBootCamp/CrystalsCollector-Game/assets/images/embossed-diamond.png");
+    background-color: rgba(255, 0, 0, 0.45);
+    background-blend-mode: overlay;
+}
+
+.jumbotron {
+    background-image: url("C:/Users/Sandesh/CodingBootCamp/CrystalsCollector-Game/assets/images/Crystal Gem Background.jpg");
+    background-position: center;
+}
+
+.boldtitle {
+    font-weight: bolder;
+    color: yellow;
+    background-color: rgba(255, 127, 80, 0.95);
+    margin-left: 275px;
+    margin-right: 275px;
+}
+
+div {
+    font-size: 25px;
+}
+
+span {
+    font-size: 45px;
+}
+
+#winxloss {
+    font-size: 35px;
+    font-weight: bold;
+}
